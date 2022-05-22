@@ -15,3 +15,5 @@ row = conn.fetchone()
 while row: 
     print(row[2]+' '+row[1])
     row = conn.fetchone()
+
+conn.close()
