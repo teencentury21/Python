@@ -1,7 +1,6 @@
-import emptyWindow
-from tkinter import *
+from emptyWindow import *
 
-window=emptyWindow.CreateWindow("Peak function","400x200")
+window=EmptyWindow.CreateWindow("Pack function", "400x200")
 
 # 設定背景色
 lbl_MCU=Label(window, text="銘傳大學.", bg="lightyellow", width=15) 
